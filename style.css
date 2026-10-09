@@ -133,26 +133,6 @@ img {
     position: absolute;
     inset: 0;
     z-index: -1;
-}
-
-.hero-image {
-
-139
-
-background-image: url(
-
-140
-    ('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?a)
-
-141
-
-);
-142
-
-background-size: cover;
-
-143
-144
 
 background-position: center;
 
