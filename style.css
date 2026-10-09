@@ -1852,4 +1852,32 @@ img {
     }
 }
 
+```css
+/* TRIPY PLAN AUTOMATIC BACKGROUND SLIDER */
+
+.hero-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: tripy-background 18s infinite;
+}
+
+@keyframes tripy-background {
+    0%, 30% {
+        background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1800&q=85");
+    }
+
+    33%, 63% {
+        background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85");
+    }
+
+    66%, 96% {
+        background-image: url("https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1800&q=85");
+    }
+
+    100% {
+        background-image: url("https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1800&q=85");
+    }
+}
+```
 
